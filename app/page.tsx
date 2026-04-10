@@ -84,17 +84,17 @@ export default function Home() {
               </div>
 
               {/* Contact Info */}
-              <div className="space-y-2 text-sm text-muted-foreground">
+              <div className="flex flex-col gap-2 text-sm text-muted-foreground">
                 <a
                   href="mailto:shanesewa824@gmail.com"
-                  className="inline-flex items-center gap-3 hover:text-foreground transition-colors"
+                  className="flex items-center gap-3 hover:text-foreground transition-colors"
                 >
                   <Mail className="h-4 w-4" />
                   <span>shanesewa824@gmail.com</span>
                 </a>
                 <a
                   href="tel:+254757458658"
-                  className="inline-flex items-center gap-3 hover:text-foreground transition-colors"
+                  className="flex items-center gap-3 hover:text-foreground transition-colors"
                 >
                   <Phone className="h-4 w-4" />
                   <span>+254757458658</span>
