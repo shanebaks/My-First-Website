@@ -39,19 +39,7 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="relative text-foreground/80 hover:text-foreground transition-colors group"
-              >
-                {link.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-foreground to-foreground/60 group-hover:w-full transition-all duration-300 ease-out" />
-              </Link>
-            ))}
-          </div>
-
+          
           {/* Right side - Theme toggle and Mobile menu */}
           <div className="flex items-center gap-4">
             {/* Theme Toggle Button */}
