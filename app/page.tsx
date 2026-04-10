@@ -66,7 +66,7 @@ export default function Home() {
               {/* Buttons */}
               <div className="flex gap-4">
                 <Button asChild className="font-semibold">
-                  <Link href="/projects">View My Work</Link>
+                  <Link href="#projects">View My Work</Link>
                 </Button>
               </div>
 
