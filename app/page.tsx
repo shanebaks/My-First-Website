@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { IconBrandGithub, IconBrandLinkedin, IconBrandTwitter } from "@tabler/icons-react"
+import { Mail, Phone } from "lucide-react"
 import { Spotlight } from "@/components/ui/spotlight"
 import { ContainerTextFlip } from "@/components/ui/container-text-flip"
 import { ProjectsSection } from "@/components/ProjectsSection"
@@ -67,9 +68,6 @@ export default function Home() {
                 <Button asChild className="font-semibold">
                   <Link href="/projects">View My Work</Link>
                 </Button>
-                <Button variant="outline" asChild className="font-semibold">
-                  <Link href="/contact">Contact Me</Link>
-                </Button>
               </div>
 
               {/* Social Icons */}
@@ -83,6 +81,24 @@ export default function Home() {
                 <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                   <IconBrandTwitter className="h-6 w-6" />
                 </Link>
+              </div>
+
+              {/* Contact Info */}
+              <div className="space-y-2 text-sm text-muted-foreground">
+                <a
+                  href="mailto:shanesewa824@gmail.com"
+                  className="inline-flex items-center gap-2 hover:text-foreground transition-colors"
+                >
+                  <Mail className="h-4 w-4" />
+                  <span>shanesewa824@gmail.com</span>
+                </a>
+                <a
+                  href="tel:+254757458658"
+                  className="inline-flex items-center gap-2 hover:text-foreground transition-colors"
+                >
+                  <Phone className="h-4 w-4" />
+                  <span>+254757458658</span>
+                </a>
               </div>
             </motion.div>
 
