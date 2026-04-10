@@ -72,7 +72,12 @@ export default function Home() {
 
               {/* Social Icons */}
               <div className="flex gap-4">
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link
+                  href="https://github.com/shanebaks"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
                   <IconBrandGithub className="h-6 w-6" />
                 </Link>
                 <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
